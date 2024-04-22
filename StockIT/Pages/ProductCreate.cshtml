@@ -2,6 +2,10 @@
 @model StockIT.Pages.ProductCreateModel
 @using StockIT.Models
 
+<head>
+    <script src="~/ckeditor/ckeditor.js"></script>
+</head>
+
 <h2>Add Product</h2>
 
 <form method="post" enctype="multipart/form-data">
@@ -11,7 +15,7 @@
     </div>
     <div class="form-group">
         <label for="@Model.ProductModel.Description">Description:</label>
-        <textarea id="@Model.ProductModel.Description" name="Description" required class="form-control"></textarea>
+        <textarea id="@Model.ProductModel.Description" id="description" name="Description" required class="form-control">Please something</textarea>
     </div>
     <div class="form-group">
         <label for="@Model.ProductModel.Quantity">Quantity:</label>
@@ -31,7 +35,13 @@
             }
         </select>
     </div>
-    
+    <script>
+        ClassicEditor
+            .create(document.querySelector("#description"))
+            .catch( error => {
+                console.error( error ).minHeight ;
+            } );
+    </script>
     <div class="form-group">
         <label for="Image">Product Image:</label>
         <input type="file" id="Image" name="Image" accept="image/*" class="form-control">

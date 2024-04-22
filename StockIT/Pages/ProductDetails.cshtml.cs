@@ -10,6 +10,7 @@ public class ProductDetailsModel : PageModel
     private IProductService _productService { get; set; }
     private ICategoryService _categoryService { get; set; }
     private readonly IWebHostEnvironment _environment;
+    private bool noImage { get; set; } 
 
     public ProductDetailsModel(IProductService productService, ICategoryService categoryService, IWebHostEnvironment environment)
     {
@@ -39,9 +40,11 @@ public class ProductDetailsModel : PageModel
 
         string uploadsFolder = "/uploads";
 
+        noImage = false;
         if (string.IsNullOrEmpty(viewProduct.ImagePaths))
         {
-            viewProduct.ImagePaths = "/uploads/noimage.jpeg";
+            noImage = true;
+            viewProduct.ImagePaths = "noimage.jpeg";
         }
 
         ProductModel = new ProductDetailsViewModel()
@@ -52,7 +55,8 @@ public class ProductDetailsModel : PageModel
             CategoryId = viewProduct.CategoryId,
             Price = viewProduct.Price,
             category = category,
-            ImagePaths = viewProduct.ImagePaths.Split(',').Select(x => $"/uploads/{x}").ToList()
+            ImagePaths = viewProduct.ImagePaths.Split(',').Select(x => $"/uploads/{x}").ToList(),
+            noImage = noImage
         };
 
         // Additional logic to populate Categories list (if needed)

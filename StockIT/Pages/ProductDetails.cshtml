@@ -12,8 +12,9 @@
                 <ol class="carousel-indicators">
                     @foreach (var image in Model.ProductModel.ImagePaths)
                     {
+
                         int index = Model.ProductModel.ImagePaths.IndexOf(image);
-                        <li data-target="#carousel-example-generic" data-slide-to="@index" class="@(index == 0 ? "active":"")"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="@index" class="@(index == 0 ? "active" : "")"></li>
                     }
                 </ol>
 
@@ -22,7 +23,7 @@
                     @foreach (var image in Model.ProductModel.ImagePaths)
                     {
                         int index = Model.ProductModel.ImagePaths.IndexOf(image);
-                        <div class="carousel-item @(index == 0 ? "active":"")">
+                        <div class="carousel-item @(index == 0 ? "active" : "")">
                             <img src="@image" class="img-fluid" alt="">
                         </div>
                     }
@@ -39,29 +40,20 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
-            <div class="mb-3">
-                <label for="name" class="form-label">Name:</label>
-                <span id="name" class="form-control">@Model.ProductModel.Name</span>
-            </div>
-            <div class="mb-3">
-                <label for="description" class="form-label">Description:</label>
-                <p id="description" class="form-control">@Model.ProductModel.Description</p>
-            </div>
         </div>
         <div class="col-md-6">
             <div class="mb-3">
-                <label for="quantity" class="form-label">Quantity:</label>
-                <span id="quantity" class="form-control">@Model.ProductModel.Quantity</span>
+                <h1>@Model.ProductModel.Name</h1>
+                <h2>@Model.ProductModel.category.Name</h2>
             </div>
             <div class="mb-3">
-                <label for="category" class="form-label">Category:</label>
-                <span id="category" class="form-control">@Model.ProductModel.category.Name</span>
-            </div>
-            <div class="mb-3">
-                <label for="price" class="form-label">Price:</label>
-                <span id="price" class="form-control">@Model.ProductModel.Price.ToString("C")</span>
+                <p>Quantity : @Model.ProductModel.Quantity </p>
+                <p>Price : @Model.ProductModel.Price.ToString("C") </p>
             </div>
         </div>
+    </div>
+    <div class="row">
+            <label>Description:</label>
+            <p>@Html.Raw(Model.ProductModel.Description)</p>
     </div>
 </div>

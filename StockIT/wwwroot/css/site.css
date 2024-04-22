@@ -89,3 +89,6 @@ h1, h2, h3 {
     margin-right: 20px; /* Spacing between image and details */
     border-radius: 4px; /* Rounded corners */
 }
+.ck-editor__editable {
+    min-height: 300px !important;
+}

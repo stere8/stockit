@@ -14,4 +14,5 @@ public class ProductDetailsViewModel
     public decimal Price { get; set; }
     public List<string> ImagePaths { get; set; }
     public Category category { get; set; }
+    public  bool noImage { get; set; }
 }
