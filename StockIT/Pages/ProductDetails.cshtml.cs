@@ -37,7 +37,12 @@ public class ProductDetailsModel : PageModel
             return RedirectToPage("OperationComplete"); // Redirect to a dedicated error page
         }
 
-        string uploadsFolder = "uploads";
+        string uploadsFolder = "/uploads";
+
+        if (string.IsNullOrEmpty(viewProduct.ImagePaths))
+        {
+            viewProduct.ImagePaths = "/uploads/noimage.jpeg";
+        }
 
         ProductModel = new ProductDetailsViewModel()
         {
@@ -47,7 +52,7 @@ public class ProductDetailsModel : PageModel
             CategoryId = viewProduct.CategoryId,
             Price = viewProduct.Price,
             category = category,
-            ImagePath = Path.Combine(uploadsFolder, viewProduct.ImagePaths)
+            ImagePaths = viewProduct.ImagePaths.Split(',').Select(x => $"/uploads/{x}").ToList()
         };
 
         // Additional logic to populate Categories list (if needed)
