@@ -30,7 +30,7 @@
             @foreach (var product in Model.ProductsList)
             {
                 <tr>
-                    <td>@product.Name</td>
+                    <td><a asp-route-productId="@product.Id" asp-page="/ProductDetails">@product.Name</a></td>
                 </tr>
             }
         </tbody>

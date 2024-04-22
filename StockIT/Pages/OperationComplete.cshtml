@@ -1,0 +1,10 @@
+﻿@page "/OperationComplete"
+
+<div class="operation-result">
+    @if (TempData["Success"] == "true")
+    {
+        <span style="color: green;">&#10004;</span> <p>OperationComplete!</p> }
+    else
+    {
+        <span style="color: red;">&#10006;</span> <p>@TempData["Message"]</p> }
+</div>

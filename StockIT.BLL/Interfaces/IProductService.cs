@@ -13,4 +13,5 @@ public interface IProductService
     List<Product> GetProductsByCategory(int categoryId);
     List<Product> SearchProducts(int categoryId=0,string query = "");
     Task<Product> GetProductByIdAsync(int productId);
+    Task UpdateProductAsync(Product product);
 }

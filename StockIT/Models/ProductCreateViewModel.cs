@@ -1,10 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-public class ProductEditViewModel
+public class ProductCreateViewModel
 {
-    [Required]
-    public int Id { get; set; }
-    
     [Required]
     public string Name { get; set; }
 
@@ -21,9 +18,6 @@ public class ProductEditViewModel
     [Required]
     [Range(0, double.MaxValue)] // Allow non-negative price
     public decimal Price { get; set; }
-    public string ImagePaths { get; set; }
-    public IFormFile[] Images { get; set; } // Array of IFormFile for multiple uploads
-    public List<string> ImagesList { get; set; }
-    public string DeleteImage { get; set; } // Optional flag for deleting image
+    public IFormFile Image { get; set; }
 
 }

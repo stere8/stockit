@@ -125,7 +125,7 @@ public class ProductService : IProductService
             if (!products.Any()) return outputSearch;
 
             // Apply search filter based on query string
-            
+
             var refinedSearch = string.IsNullOrEmpty(query) ? products : products.Where(prod => prod.Name.ToLower().Contains(query.ToLower()) || prod.Description.ToLower().Contains(query.ToLower()));
             var enumerable = refinedSearch.ToList();
             if (enumerable.Any())
@@ -153,6 +153,36 @@ public class ProductService : IProductService
         {
             _logger.LogError(ex, $"Error getting product with ID {id}");
             throw new ProductServiceException($"Product with ID {id} not found."); // Throw a custom exception
+        }
+    }
+
+    public async Task UpdateProductAsync(Product product)
+    {
+        try
+        {
+
+            // Find the existing product in the database
+            var existingProduct = await _stockItContext.Products.FindAsync(product.Id);
+
+            if (existingProduct != null)
+            {
+                // Update properties (excluding ImagePaths for now)
+                existingProduct.Name = product.Name;
+                existingProduct.Description = product.Description;
+                existingProduct.Quantity = product.Quantity;
+                existingProduct.Price = product.Price;
+                existingProduct.CategoryId = product.CategoryId;
+
+                existingProduct.ImagePaths = product.ImagePaths; // Update directly
+
+                await _stockItContext.SaveChangesAsync();
+            }
+
+        }
+        catch (DbException ex)
+        {
+            _logger.LogError(ex, $"Error getting product with ID {product.Id}");
+            throw new ProductServiceException($"Product with ID {product.Id} not found."); // Throw a custom exception
         }
     }
 
