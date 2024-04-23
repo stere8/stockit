@@ -12,7 +12,7 @@ public class ProductDetailsViewModel
     public int CategoryId { get; set; }
 
     public decimal Price { get; set; }
-    public List<string> ImagePaths { get; set; }
+    public string ImagePath { get; set; }
     public Category category { get; set; }
     public  bool noImage { get; set; }
 }

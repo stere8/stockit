@@ -4,26 +4,29 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using StockIT.BLL.Services;
 using StockIT.Models;
 using System.IO;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace StockIT.Pages;
 
 public class ProductEditModel : PageModel
 {
-    [BindProperty]
-    public ProductEditViewModel ProductModel { get; set; }
+    [BindProperty] public ProductEditViewModel ProductModel { get; set; }
     public List<Category> Categories { get; set; }
+    public string existingImagePaths { get; set; }
     private IProductService _productService { set; get; }
     private ICategoryService _categoryService { set; get; }
+    private IHttpContextAccessor _contextAccessor { set; get; }
+
     private IWebHostEnvironment _environment { get; set; }
 
 
-    public ProductEditModel(IProductService productService, ICategoryService categoryService, IWebHostEnvironment environment)
+    public ProductEditModel(IProductService productService, ICategoryService categoryService,
+        IWebHostEnvironment environment, IHttpContextAccessor contextAccessor)
     {
         _productService = productService;
         _categoryService = categoryService;
         _environment = environment;
-        ProductModel = new ProductEditViewModel { Images = new IFormFile[0] }; // Initialize Images as empty array
-        ViewData["Title"] = "Product Edit";
+        _contextAccessor = contextAccessor;
     }
 
 
@@ -35,58 +38,37 @@ public class ProductEditModel : PageModel
         if (viewProduct == null)
         {
             TempData["Success"] = "false";
-            TempData["Message"] = "Product not found.";  // More specific error message
+            TempData["Message"] = "Product not found."; // More specific error message
             return RedirectToPage("OperationComplete"); // Redirect to a dedicated error page
         }
 
-        string existingImagePaths = viewProduct.ImagePaths ?? string.Empty; // Use null-conditional operator for default empty string 
+        existingImagePaths =
+            viewProduct.ImagePaths ?? string.Empty; // Use null-conditional operator for default empty string 
 
-        
-
-        var imageList = new List<string>();
-
-
-        if (!string.IsNullOrEmpty(existingImagePaths))
-        {
-            string[] imagePaths = existingImagePaths.Split(',');
-            ProductModel.Images = new IFormFile[imagePaths.Length];
-
-            int index = 0;
-            foreach (var imagePath in imagePaths)
-            {
-                string fullPath = Path.Combine("/uploads", imagePath); // Adjust path based on your storage location
-                imageList.Add(fullPath);
-                if (System.IO.File.Exists(fullPath))
-                {
-                    using (var fs = new FileStream(fullPath,FileMode.Open))
-                    {
-                        ProductModel.Images[index] = new FormFile(fs, 0,fs.Length,  imagePath, "image/jpeg"); // Assuming JPEG format, adjust mime type as needed
-                    }
-                }
-                else
-                {
-                    // Handle cases where the file doesn't exist (log or display an error message)
-                }
-                index++;
-
-            }
-        }
-        else
-        {
-            ProductModel.Images = new IFormFile[0];
-        }
 
         ProductModel = new ProductEditViewModel()
         {
+            Name = viewProduct.Name,
             CategoryId = viewProduct.CategoryId,
             Description = viewProduct.Description,
             Id = viewProduct.Id,
-            ImagePaths = existingImagePaths,
-            Images = new IFormFile[viewProduct.ImagePaths.Length],
-            ImagesList = imageList,
-            Quantity = viewProduct.Quantity
+            Quantity = viewProduct.Quantity,
+            Price = viewProduct.Price
         };
-        
+
+        using (var stream = System.IO.File.OpenRead($"{_environment.WebRootPath}/uploads/{existingImagePaths}"))
+        {
+            ProductModel.Image = new FormFile(stream, 0, stream.Length, null, Path.GetFileName(stream.Name))
+            {
+                Headers = new HeaderDictionary(),
+                ContentType =
+                    GetContentTypeFromExtension(
+                        Path.GetExtension(existingImagePaths)) // Function to determine content type based on extension
+            };
+        }
+
+        _contextAccessor.HttpContext?.Session.SetInt32("productId", ProductModel.Id);
+
 
         // Additional logic to populate Categories list (if needed)
         Categories = _categoryService.GetAllCategories(); // Assuming a GetCategoriesAsync method
@@ -96,98 +78,96 @@ public class ProductEditModel : PageModel
 
     public async Task<IActionResult> OnPostAsync()
     {
+        bool noNewImage = false;
+        int productId = HttpContext.Session.GetInt32("productId") ?? -1; // Use default value if not found
+        var previousProductValue = _productService.GetProductById(productId);
+        var y = ModelState[nameof(ProductModel.Image)];
+        if (ModelState[nameof(ProductModel.Image)].ValidationState == ModelValidationState.Invalid)
+        {
+            noNewImage = true;
+            ModelState[nameof(ProductModel.Image)].ValidationState = ModelValidationState.Valid;
+        }
+
         if (!ModelState.IsValid)
         {
             return Page();
         }
 
-        string existingImagePaths = _productService.GetProductById(ProductModel.Id).ImagePaths; // Get existing paths
+        string existingImagePaths = previousProductValue.ImagePaths; // Get existing paths
 
+        var newFileName = string.Empty;
         // Handle image uploads (optional)
-        if (ProductModel.Images != null && ProductModel.Images.Length > 0)
+        if (ProductModel.Image != null)
         {
-            List<string> imagePaths = new List<string>();
-            if (!string.IsNullOrEmpty(existingImagePaths))
+            // Generate a unique filename
+            string fileName = Path.GetRandomFileName() + Path.GetExtension(ProductModel.Image.FileName);
+            // Get the wwwroot path (adjust based on your storage location)
+            string uploads = Path.Combine(_environment.WebRootPath, "uploads");
+            // Create uploads directory if it doesn't exist
+            if (!Directory.Exists(uploads))
             {
-                imagePaths.AddRange(existingImagePaths.Split(',', StringSplitOptions.RemoveEmptyEntries));
+                Directory.CreateDirectory(uploads);
             }
 
-            foreach (var image in ProductModel.Images)
+            // Save the uploaded image to the uploads folder
+            string filePath = Path.Combine(uploads, fileName);
+            await using (FileStream fs = new FileStream(filePath, FileMode.Create))
             {
-                // Generate a unique filename
-                string fileName = Path.GetRandomFileName() + Path.GetExtension(image.FileName);
-                // Get the wwwroot path (adjust based on your storage location)
-                string uploads = Path.Combine(_environment.WebRootPath, "uploads");
-                // Create uploads directory if it doesn't exist
-                if (!Directory.Exists(uploads))
-                {
-                    Directory.CreateDirectory(uploads);
-                }
-
-                // Save the uploaded image to the uploads folder
-                string filePath = Path.Combine(uploads, fileName);
-                await using (FileStream fs = new FileStream(filePath, FileMode.Create))
-                {
-                    await image.CopyToAsync(fs);
-                }
-
-                // Add the new image path
-                imagePaths.Add(filePath);
+                await ProductModel.Image.CopyToAsync(fs);
             }
 
-            ProductModel.ImagePaths = string.Join(",", imagePaths); // Update with combined paths
+            newFileName = fileName;
+
+            // Add the new image path
         }
+
+        var imageToBeUsed = noNewImage ? previousProductValue.ImagePaths : newFileName;
+
 
         // Handle image deletion (optional)
-        if (!string.IsNullOrEmpty(ProductModel.DeleteImage))
-        {
-            List<string> imagePaths = new List<string>();
-            if (!string.IsNullOrEmpty(existingImagePaths))
-            {
-                imagePaths.AddRange(existingImagePaths.Split(',', StringSplitOptions.RemoveEmptyEntries));
-            }
 
-            string[] indexesToDelete = ProductModel.DeleteImage.Split(',');
-            foreach (string indexStr in indexesToDelete)
-            {
-                int index;
-                if (int.TryParse(indexStr.Trim(), out index) && index >= 0 && index < imagePaths.Count)
-                {
-                    // Remove the image path at the specified index
-                    imagePaths.RemoveAt(index);
-
-                    // Delete the image file from server (optional)
-                    // Implement logic to delete the actual image file based on the path
-                }
-            }
-
-            ProductModel.ImagePaths = string.Join(",", imagePaths); // Update with remaining paths
-        }
 
         var product = new Product()
         {
-            Id = ProductModel.Id,
+            Id = productId,
             Name = ProductModel.Name,
             Price = ProductModel.Price,
             Quantity = ProductModel.Quantity,
             CategoryId = ProductModel.CategoryId,
-            ImagePaths = ProductModel.ImagePaths,
+            ImagePaths = imageToBeUsed,
             Description = ProductModel.Description,
-
         };
 
         try
         {
             await _productService.UpdateProductAsync(product);
+            TempData["Success"] = "True";
+            TempData["Message"] = "Edit product worked"; // More specific error message
+            return RedirectToPage("OperationComplete");
         }
         catch
         {
             TempData["Success"] = "false";
-            TempData["Message"] = "Edit product failed";  // More specific error message
+            TempData["Message"] = "Edit product failed"; // More specific error message
             return RedirectToPage("OperationComplete");
         }
         // other product properties..., Model.ImagePaths);
 
         return RedirectToPage("./ProductList");
+    }
+
+    private string GetContentTypeFromExtension(string extension)
+    {
+        switch (extension.ToLower())
+        {
+            case ".jpg":
+            case ".jpeg":
+                return "image/jpeg";
+            case ".png":
+                return "image/png";
+            // Add other mappings as needed
+            default:
+                return "application/octet-stream"; // Use a generic type for unknown formats
+        }
     }
 }

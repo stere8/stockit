@@ -1,7 +1,5 @@
-﻿@page "/Categories"
-
-@model StockIT.Pages.CategoryListModel
-
+@page "/Categories"
+@model StockIT.Pages.CategoriesModel
 @{
 }
 <h1>Categories</h1>
@@ -19,7 +17,7 @@
             @foreach (var category in Model.Categories)
             {
                 <tr>
-                    <td><a asp-route-categoryId="@category.Id" asp-page="/ProductDetails">@category.Name</a></td>
+                    <td><a asp-route-categoryId="@category.Id" asp-page="/CategoryEdit">@category.Name</a></td>
                     <td>@category.Products.Count()</td>
                 </tr>
             }

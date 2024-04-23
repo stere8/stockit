@@ -9,6 +9,7 @@ public class ProductDetailsModel : PageModel
     public ProductDetailsViewModel ProductModel { get; set; }
     private IProductService _productService { get; set; }
     private ICategoryService _categoryService { get; set; }
+    public int ProductId { get; set; }
     private readonly IWebHostEnvironment _environment;
     private bool noImage { get; set; } 
 
@@ -20,6 +21,7 @@ public class ProductDetailsModel : PageModel
     }
     public async Task<IActionResult> OnGetAsync(int productId)
     {
+        ProductId = productId;
         var viewProduct = await _productService.GetProductByIdAsync(productId);
 
         if (viewProduct == null)
@@ -55,7 +57,7 @@ public class ProductDetailsModel : PageModel
             CategoryId = viewProduct.CategoryId,
             Price = viewProduct.Price,
             category = category,
-            ImagePaths = viewProduct.ImagePaths.Split(',').Select(x => $"/uploads/{x}").ToList(),
+            ImagePath = $"/uploads/{viewProduct.ImagePaths}",
             noImage = noImage
         };
 

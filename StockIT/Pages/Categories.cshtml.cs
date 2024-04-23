@@ -1,24 +1,22 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using StockIT.BLL.Services;
 using StockIT.Models;
 
 namespace StockIT.Pages
 {
-    public class CategoryListModel : PageModel
+    public class CategoriesModel : PageModel
     {
-        private readonly IProductService _productService;
+         private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
 
         public List<Category> Categories { get; set; } = [];
-
-        public CategoryListModel(IProductService productService, ICategoryService categoryService)
+        public CategoriesModel(IProductService productService, ICategoryService categoryService)
         {
             _productService = productService;
             _categoryService = categoryService;
         }
 
-        public void OnGet()
+          public void OnGet()
         {
             Categories = _categoryService.GetAllCategories();
             for (var i = 0; i < Categories.Count; i++)
@@ -26,6 +24,5 @@ namespace StockIT.Pages
                 Categories[i].Products = _productService.GetProductsByCategory(Categories[i].Id);
             }
         }
-
-}
+    }
 }

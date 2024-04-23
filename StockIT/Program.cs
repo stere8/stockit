@@ -8,6 +8,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<ICategoryService, CategoryService>(); 
 builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddControllersWithViews();
+builder.Services.AddSession(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Adjust based on your security needs
+    options.IdleTimeout = TimeSpan.FromMinutes(120); // Session timeout (optional)
+});
+
 builder.Services.AddDbContext<StockITContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -27,6 +36,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 

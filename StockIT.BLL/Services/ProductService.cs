@@ -186,4 +186,16 @@ public class ProductService : IProductService
         }
     }
 
+    public async Task<List<Product>> GetAllProductsAsync()
+    {
+        try
+        {
+            return await _stockItContext.Products.ToListAsync();
+        }
+        catch (DbException ex)
+        {
+            _logger.LogError(ex, $"Error getting all products async");
+            throw new ProductServiceException($"Error getting all products async"); // Throw a custom exception
+        }
+    }
 }

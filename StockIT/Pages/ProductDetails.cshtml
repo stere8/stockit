@@ -1,45 +1,17 @@
 ﻿@page "/ProductDetails"
 @model StockIT.Pages.ProductDetailsModel
 @{
-        ViewData["Title"] = "Product Details";
+    ViewData["Title"] = "Product Details";
 }
 <div class="container mt-3">
     <h1>Product Details</h1>
-    <hr />
+    <hr/>
+    <a asp-page="/ProductEdit" asp-route-productId="@Model.ProductId" class="btn btn-outline-primary">Edit</a>
+    <a asp-action="DeleteProduct" asp-controller="Product" asp-route-productId="@Model.ProductId" asp-route-productId="@Model.ProductId" class="btn btn-outline-danger">Delete</a>
     <div class="row">
         <div class="col-md-6">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    @foreach (var image in Model.ProductModel.ImagePaths)
-                    {
-
-                        int index = Model.ProductModel.ImagePaths.IndexOf(image);
-                        <li data-target="#carousel-example-generic" data-slide-to="@index" class="@(index == 0 ? "active" : "")"></li>
-                    }
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    @foreach (var image in Model.ProductModel.ImagePaths)
-                    {
-                        int index = Model.ProductModel.ImagePaths.IndexOf(image);
-                        <div class="carousel-item @(index == 0 ? "active" : "")">
-                            <img src="@image" class="img-fluid" alt="">
-                        </div>
-                    }
-
-                </div>
-
-                <!-- Controls -->
-                <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <img src="@(Model.ProductModel.ImagePath != null ? Model.ProductModel.ImagePath : "/images/no-image.jpg")" class="img-fluid" alt="">
             </div>
         </div>
         <div class="col-md-6">
@@ -54,7 +26,7 @@
         </div>
     </div>
     <div class="row">
-            <label>Description:</label>
-            <p>@Html.Raw(Model.ProductModel.Description)</p>
+        <label>Description:</label>
+        <p>@Html.Raw(Model.ProductModel.Description)</p>
     </div>
 </div>

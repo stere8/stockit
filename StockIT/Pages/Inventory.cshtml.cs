@@ -1,12 +1,12 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace StockIT.Pages
 {
-    public class CategoryModel : PageModel
+    public class InventoryModel : PageModel
     {
-        public void OnGet()
+        public InventoryModel()
         {
+
         }
     }
 }
