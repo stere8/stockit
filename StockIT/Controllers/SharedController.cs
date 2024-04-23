@@ -4,11 +4,11 @@ using StockIT.BLL.Services;
 
 namespace StockIT.Controllers;
 
-public class SharedController : Controller
+public class HomeController : Controller
 {
     private IProductService _productService { get; set; }
 
-    public SharedController(IProductService productService)
+    public HomeController(IProductService productService)
     {
         _productService = productService;
     }

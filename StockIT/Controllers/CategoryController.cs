@@ -22,13 +22,13 @@ public CategoryController(IProductService productService, ICategoryService categ
             _productService.DeleteProduct(productId);
             TempData["Success"] = "true";
             TempData["Message"] = "Products deleted successfully!";
-            return RedirectToPage("OperationComplete");
+            return RedirectToPage("/OperationComplete");
         }
         catch (Exception ex)
         {
             TempData["Success"] = "false";
             TempData["Message"] = "Products delete failed: " + ex.Message; // More specific error message
-            return RedirectToPage("OperationComplete");
+            return RedirectToPage("/OperationComplete");
         }
     }
 }

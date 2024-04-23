@@ -34,7 +34,7 @@
                                 <li><a class="dropdown-item" href="/Inventory">View Inventory</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li>
-                                    <form asp-action="DownloadInventory" method="get">
+                                    <form asp-action="DownloadInventory" asp-controller="Home" method="get">
                                         <select name="format" class="dropdown-item">
                                             <option value="csv">CSV</option>
                                             <option value="excel">Excel</option>

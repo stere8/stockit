@@ -9,7 +9,7 @@ namespace StockIT.Controllers
         private IProductService _productService;
         public ProductController(IProductService productService)
         {
-            productService = _productService;
+             _productService= productService;
         }
         public IActionResult DeleteProduct()
         {
@@ -19,13 +19,13 @@ namespace StockIT.Controllers
                 _productService.DeleteProduct(productId);
                 TempData["Success"] = "true";
                 TempData["Message"] = "Products deleted successfully!";
-                return RedirectToPage("OperationComplete");
+                return RedirectToPage("/OperationComplete");
             }
             catch (Exception ex)
             {
                 TempData["Success"] = "false";
                 TempData["Message"] = "Products delete failed: " + ex.Message; // More specific error message
-                return RedirectToPage("OperationComplete");
+                return RedirectToPage("/OperationComplete");
             }
         }
     }
