@@ -16,9 +16,9 @@ namespace StockIT.Pages
         }
 
         [HttpGet]
-        public void OnGet(int productCategory, string searchQuery) // Filters by category and search query
+        public void OnGet(int categoryId, string searchQuery) // Filters by category and search query
         {
-            ProductsList = _productService.SearchProducts(productCategory, searchQuery);
+            ProductsList = _productService.SearchProducts(categoryId, searchQuery);
         }
     }
 

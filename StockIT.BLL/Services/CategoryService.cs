@@ -52,7 +52,7 @@ namespace StockIT.BLL.Services
             }
             catch (DbException ex)
             {
-                _logger.LogError(ex, $"Error adding category: {category.Name}"); // Log category name
+                _logger.LogError(ex, $"Error adding category: {category.Name}"); // Log category FirstName
                 throw new CategoryServiceException("An error occurred while adding a category.");
             }
         }

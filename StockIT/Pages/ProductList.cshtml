@@ -1,6 +1,8 @@
 ﻿@page "/Products"
 @using Microsoft.AspNetCore.Mvc.TagHelpers
-
+@{
+    ViewData["Title"] = "Product List";
+}
 
 @model StockIT.Pages.ProductListModel
 
@@ -11,7 +13,7 @@
         <form method="get">
             <div class="form-group">
                 <label for="searchQuery">Search Products:</label>
-                <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter product name or keyword">
+                <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter product FirstName or keyword">
                 <button type="submit" class="btn btn-primary">Search</button>
             </div>
         </form>

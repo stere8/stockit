@@ -6,8 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddTransient<ICategoryService, CategoryService>(); // Replace with your concrete service class
+builder.Services.AddTransient<ICategoryService, CategoryService>(); 
 builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddDbContext<StockITContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

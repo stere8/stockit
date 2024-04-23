@@ -53,7 +53,7 @@ public class ProductService : IProductService
         }
         catch (DbException ex)
         {
-            _logger.LogError(ex, $"Error adding product: {product.Name}"); // Log product name
+            _logger.LogError(ex, $"Error adding product: {product.Name}"); // Log product FirstName
             throw new ProductServiceException("An error occurred while adding a product."); // Throw a generic exception
         }
     }

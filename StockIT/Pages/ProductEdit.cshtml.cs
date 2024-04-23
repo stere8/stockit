@@ -23,6 +23,7 @@ public class ProductEditModel : PageModel
         _categoryService = categoryService;
         _environment = environment;
         ProductModel = new ProductEditViewModel { Images = new IFormFile[0] }; // Initialize Images as empty array
+        ViewData["Title"] = "Product Edit";
     }
 
 

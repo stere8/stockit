@@ -1,0 +1,46 @@
+﻿@page "/CreateUser"
+@model StockIT.Pages.UserCreateModel
+@{
+    ViewData["Title"] = "Create User";
+}
+
+<form method="post" enctype="multipart/form-data" asp-page-handler="SignUp">
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" asp-for="@Model.UserModel.FirstName" id="firstName" aria-describedby="firstName" placeholder="Enter first name">
+        @Html.ValidationMessageFor(m => m.UserModel.FirstName, "")
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" asp-for="@Model.UserModel.LastName" id="lastName" aria-describedby="lastName" placeholder="Enter last name">
+        @Html.ValidationMessageFor(m => m.UserModel.LastName, "")
+    </div>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" asp-for="@Model.UserModel.Username" id="username" aria-describedby="username" placeholder="Enter username">
+        <small id="usernameSmall" class="form-text text-muted">Enter your desired username</small>
+        @Html.ValidationMessageFor(m => m.UserModel.Username, "")
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" asp-for="@Model.UserModel.Password" class="form-control" id="password" placeholder="Password">
+        @Html.ValidationMessageFor(m => m.UserModel.Password, "")
+    </div>
+    <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" asp-for="@Model.UserModel.ReapeatPassword" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+        @Html.ValidationMessageFor(m => m.UserModel.ReapeatPassword, "")
+    </div>
+    <div class="form-group">
+        <label for="profilePicture">Profile Picture (Optional)</label>
+        <input type="file" class="form-control" id="profilePicture" name="UserModel.ProfilePicture">
+    </div>
+    <button type="submit" class="btn btn-primary">Create User</button>
+</form>
+
+@if (TempData["Success"] != null && TempData["Message"] != null)
+{
+    <div class="alert alert-@TempData["Success"] == "true" ? "success" : "danger" role="alert">
+        @TempData["Message"]
+    </div>
+}

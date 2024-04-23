@@ -41,7 +41,7 @@ namespace StockIT.Pages
 
             if (ViewModel.Categories.Any(cat => cat.Name == CategoryName))
             {
-                ModelState.AddModelError("CategoryName", "Category name already exists.");
+                ModelState.AddModelError("CategoryName", "Category FirstName already exists.");
             }
             _categoryService.AddCategory(new Category { Name = CategoryName });
 

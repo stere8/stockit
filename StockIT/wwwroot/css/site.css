@@ -1,94 +1,41 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+html, body {
+    height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
-
-body {
-    font-family: Arial, sans-serif; /* Base font */
+.main {
+    flex: 1;
 }
 
+/* Custom styles for the navbar */
 .navbar-brand {
-    font-weight: bold; /* Emphasize brand name */
+    font-weight: bold;
 }
 
-.nav-link {
-    color: #333; /* Darker link color for better contrast */
-}
-
-.nav-link:hover {
-    color: #258cfb; /* Gemini blue hover color */
-}
-
-h1, h2, h3 {
-    color: #333; /* Consistent heading color */
-}
-
+/* Adjustments for the main content area */
 .container {
-    padding: 30px 0; /* Add some padding for content */
+    flex-grow: 1;
 }
 
-.operation-result {
-    font-size: 24px; /* More readable font size */
-    text-align: center;
-    margin-top: 50px;
+/* Footer customizations */
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
 }
 
-.form-control {
-    border-radius: 4px; /* Rounded form controls */
+/* Additional custom styles */
+.custom-highlight {
+    background-color: #007bff;
+    color: #ffffff;
 }
 
-.btn {
-    border-radius: 4px;
-    background-color: #258cfb; /* Gemini blue button color */
-    color: white; /* White button text */
-}
-
-.btn:hover {
-    background-color: #177eff; /* Darker blue hover color */
-}
-
-.table > thead > tr > th,
-.table > tbody > tr > td {
-    vertical-align: middle; /* Align table content vertically */
-}
-
-.operation-result {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 50px;
-}
-/* ProductDetails.cshtml styles */
-.product-details {
-    display: flex; /* Arrange elements side-by-side */
-    align-items: center; /* Vertically align content */
-    margin-bottom: 30px;
-}
-
-.product-image {
-    width: 200px; /* Adjust image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Spacing between image and details */
-    border-radius: 4px; /* Rounded corners */
-}
-.ck-editor__editable {
-    min-height: 300px !important;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        margin-top: 20px;
+    }
 }

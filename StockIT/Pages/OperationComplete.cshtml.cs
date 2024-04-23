@@ -7,6 +7,7 @@ namespace StockIT.Pages
     {
         public void OnGet()
         {
+            ViewData["Title"] = "Operation Complete";
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿@page "/"
-
+@{
+    ViewData["Title"] = "Home";
+}
 @model StockIT.Pages.IndexModel
 
 <h1>Product Management</h1>
@@ -21,20 +23,18 @@ else
     </ul>
 }
 
-<h2>Products</h2>
-
 @if (Model.ViewModel.SelectedCategoryId == null)
 {
     <form asp-page-handler="AddCategory" method="post">
         <label for="categoryName">Category Name:</label>
-        <input type="text" id="categoryName" name="CategoryName" data-val="true" data-val-required="Category name is required." required /> <button type="submit">Add Category</button>
+        <input type="text" id="categoryName" name="CategoryName" data-val="true" data-val-required="Category FirstName is required." required /> <button type="submit">Add Category</button>
     </form>
 }
 else
 {
     <form asp-page-handler="SelectCategory" method="post">
         <label for="productName">Product Name:</label>
-        <input type="text" id="productName" name="ProductName" data-val="true" data-val-required="Product name is required." required />
+        <input type="text" id="productName" name="ProductName" data-val="true" data-val-required="Product FirstName is required." required />
 
         <label for="description">Description:</label>
         <textarea id="description" name="Description"></textarea>

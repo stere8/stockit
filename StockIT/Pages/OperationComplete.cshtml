@@ -1,4 +1,7 @@
 ﻿@page "/OperationComplete"
+@{
+ViewData["Title"] = "Operation Complete";
+}
 
 <div class="operation-result">
     @if (TempData["Success"].ToString().ToLower() == "true")
