@@ -26,6 +26,7 @@
         <thead>
             <tr>
                 <th>Product Name</th>
+                <th>Qty</th>
             </tr>
         </thead>
         <tbody>
@@ -33,6 +34,7 @@
             {
                 <tr>
                     <td><a asp-route-productId="@product.Id" asp-page="/ProductDetails">@product.Name</a></td>
+                    <td>@product.Quantity</td>
                 </tr>
             }
         </tbody>

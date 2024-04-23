@@ -176,8 +176,16 @@ public class ProductEditModel : PageModel
 
         };
 
-        // Update product information in your data store (including ImagePaths)
-        await _productService.UpdateProductAsync(product);
+        try
+        {
+            await _productService.UpdateProductAsync(product);
+        }
+        catch
+        {
+            TempData["Success"] = "false";
+            TempData["Message"] = "Edit product failed";  // More specific error message
+            return RedirectToPage("OperationComplete");
+        }
         // other product properties..., Model.ImagePaths);
 
         return RedirectToPage("./ProductList");

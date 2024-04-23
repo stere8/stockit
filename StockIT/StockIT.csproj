@@ -7,12 +7,35 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Content Remove="Pages\Category.cshtml" />
+      <Content Remove="Pages\CategoryList.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\StockIT.BLL\StockIT.BLL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\CategoryList.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Category.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\CategoryList.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="Pages\Category.cshtml" />
+      <None Include="Pages\CategoryList.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\Category.cshtml" />
     </ItemGroup>
 
 </Project>
