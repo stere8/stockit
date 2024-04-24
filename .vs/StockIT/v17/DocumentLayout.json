@@ -209,28 +209,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 25,
@@ -268,8 +248,7 @@
               "ViewState": "AQIAABAAAAAAAAAAAAAqwBQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T23:27:27.827Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -282,8 +261,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-20T23:26:45.25Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -296,21 +274,27 @@
               "ViewState": "AQIAAD0AAAAAAAAAAAAAwEIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-20T23:44:09.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
-              "RelativeToolTip": "StockIT.BLL\\Services\\ProductService.cs",
-              "ViewState": "AQIAALYAAAAAAAAAAAAvwMUAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:22:55.855Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -322,21 +306,7 @@
               "RelativeToolTip": "StockIT\\Pages\\CategoryEdit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T12:23:01.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDetails.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:44:06.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T12:23:01.175Z"
             },
             {
               "$type": "Document",
@@ -353,6 +323,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "StockIT.BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "StockIT.BLL\\Services\\ProductService.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAAAvwMUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:22:55.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml",
+              "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T23:44:06.708Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\CategoryController.cs",
@@ -361,8 +355,7 @@
               "RelativeToolTip": "StockIT\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T22:13:26.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T22:13:26.217Z"
             },
             {
               "$type": "Document",
@@ -374,8 +367,7 @@
               "RelativeToolTip": "StockIT\\Program.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAYwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:57:15.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T09:57:15.97Z"
             },
             {
               "$type": "Document",
@@ -387,8 +379,7 @@
               "RelativeToolTip": "StockIT\\Controllers\\SharedController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAUwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:42:49.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:42:49.937Z"
             },
             {
               "$type": "Document",
@@ -400,8 +391,7 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductDelete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T20:59:49.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T20:59:49.254Z"
             },
             {
               "$type": "Document",
@@ -413,8 +403,7 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductDelete.cshtml.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAEwBwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:01:56.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:01:56.895Z"
             },
             {
               "$type": "Document",
@@ -426,8 +415,7 @@
               "RelativeToolTip": "StockIT\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T22:14:24.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T22:14:24.246Z"
             },
             {
               "$type": "Document",
@@ -439,8 +427,7 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T16:45:38.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T16:45:38.645Z"
             },
             {
               "$type": "Document",
@@ -452,8 +439,7 @@
               "RelativeToolTip": "StockIT.BLL\\Interfaces\\IProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:33:52.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T21:33:52.798Z"
             },
             {
               "$type": "Document",
@@ -465,8 +451,7 @@
               "RelativeToolTip": "StockIT\\Pages\\CategoryDelete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:02:53.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:02:53.825Z"
             },
             {
               "$type": "Document",
@@ -478,8 +463,7 @@
               "RelativeToolTip": "StockIT\\Pages\\Inventory.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:34:08.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:34:08.433Z"
             },
             {
               "$type": "Document",
@@ -491,8 +475,7 @@
               "RelativeToolTip": "StockIT\\Pages\\CategoryDelete.cshtml.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAuwCQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:13:14.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:13:14.849Z"
             },
             {
               "$type": "Document",
@@ -504,8 +487,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\fa21c7d4a0648192e38f52dec0d94f744e4eced2027141cd4a6624a739b5994a\\StockIT\\Pages\\ProductDetails.cshtml.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAYwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:18:04.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:18:04.793Z"
             },
             {
               "$type": "Document",
@@ -517,8 +499,7 @@
               "RelativeToolTip": "StockIT\\Pages\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:10:27.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T21:10:27.289Z"
             },
             {
               "$type": "Document",
@@ -530,8 +511,7 @@
               "RelativeToolTip": "StockIT\\Pages\\CategoryEdit.cshtml.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAqwCMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:47:35.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T13:47:35.956Z"
             },
             {
               "$type": "Document",
@@ -555,8 +535,7 @@
               "RelativeToolTip": "StockIT.BLL\\Services\\CategoryService.cs",
               "ViewState": "AQIAADAAAAAAAAAAAADgvz4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:09:58.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T08:09:58.739Z"
             },
             {
               "$type": "Document",
