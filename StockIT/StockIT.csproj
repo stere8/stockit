@@ -29,4 +29,7 @@
   <ItemGroup>
     <UpToDateCheckInput Remove="Pages\Category.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
 </Project>
