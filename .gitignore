@@ -3,3 +3,12 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+/.vs/
+/.vscode/
+/.idea/
+.vs/StockIT/FileContentIndex/8c941434-0495-423c-a8ea-768c009c108f.vsidx
+StockIT/Properties/serviceDependencies.json
+StockIT/Properties/serviceDependencies.stockit - Web Deploy.json
+StockIT/Properties/PublishProfiles/FTPProfile.pubxml
+StockIT/Properties/PublishProfiles/stockit - Web Deploy.pubxml
+StockIT/Properties/ServiceDependencies/stockit - Web Deploy/profile.arm.json
