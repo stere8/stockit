@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StockIT.BLL.Services;
+using StockIT.Models;
 
 namespace StockIT.Controllers;
 
@@ -14,7 +15,7 @@ public CategoryController(IProductService productService, ICategoryService categ
         _productService = productService;
         _categoryService = categoryService;
     }
-    public IActionResult DeleteCategory()
+    public IActionResult DeleteCategory(Category category)
     {
         try
         {

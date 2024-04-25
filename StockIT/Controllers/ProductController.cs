@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StockIT.BLL.Services;
-using StockIT.Models;
 
 namespace StockIT.Controllers
 {
