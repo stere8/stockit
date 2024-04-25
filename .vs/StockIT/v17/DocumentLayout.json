@@ -3,215 +3,53 @@
   "WorkspaceRootPath": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\operationcomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\operationcomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\f4b5cddba26fd88173fda7bc4974cbc4992dbaf50d5a8e311fd8eed3c78559e9\\StockIT\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\6cfaba025f00d6c1f36b90b8b0ec1396d0c398965534b2554688434d51c7e04f\\StockIT\\Pages\\OperationComplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\categoryedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\categoryedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\categorydelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\categorydelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\stockit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\stockit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\dbcontext\\stockitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\dbcontext\\stockitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\stockit.bll.appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\stockit.bll.appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productcreate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productcreate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\controllers\\sharedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\controllers\\sharedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\c872c19ea13a2c291c310c5a4afa15b9f00f6f410b53e7ace9b2c57be97d706d\\StockIT\\Pages\\ProductCreate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productdelete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdelete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productcreate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productcreate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\categorydelete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\categorydelete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\fa21c7d4a0648192e38f52dec0d94f744e4eced2027141cd4a6624a739b5994a\\StockIT\\Pages\\ProductDetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\categoryedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\categoryedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\productlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\models\\productcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\models\\productcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit.bll\\exceptions\\categoryserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB48BA7-2DDB-4483-9E4D-8B2938B027E6}|StockIT.BLL\\StockIT.BLL.csproj|solutionrelative:stockit.bll\\exceptions\\categoryserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\models\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\models\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\d9e3ed8cd51a3373ac4eaca250e3b371c2f387f8f682f44a4ef85796ab125057\\StockIT\\Pages\\ProductDetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\b378eca0b9592b4fe4d62a446eca04821ecfd6f4ef22945a1c0dc5098a7d0a24\\StockIT\\Pages\\ProductDetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\models\\producteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\models\\producteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\AppData\\Local\\SourceServer\\fc0d8ac2216e8cdccca6423947221577f8e909ddacaf2a176ccb9f10c8f2b670\\StockIT\\Pages\\ProductList.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockIT\\Pages\\CategoryList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockIT\\Pages\\Category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Category.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockIT\\Pages\\Category.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryList.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockIT\\Pages\\CategoryList.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\twizo\\source\\repos\\ocp\\stockit\\stockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -221,77 +59,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Index.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T20:35:10.378Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T17:21:14.116Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductCreate.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductCreate.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\ProductCreate.cshtml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwBcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T23:27:27.827Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductCreate.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductCreate.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\ProductCreate.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:26:45.25Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductEdit.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductEdit.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductEdit.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\ProductEdit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:44:09.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -315,58 +84,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDetails.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:44:06.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductList.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductList.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductList.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductList.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\ProductList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T22:11:29.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AboutMe.cshtml",
               "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\AboutMe.cshtml",
               "RelativeDocumentMoniker": "StockIT\\Pages\\AboutMe.cshtml",
               "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\AboutMe.cshtml",
               "RelativeToolTip": "StockIT\\Pages\\AboutMe.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAACCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T10:52:02.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T07:55:05.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductDetails.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCsAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProductCreate.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "RelativeToolTip": "StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwBwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T16:45:38.645Z",
+              "WhenOpened": "2024-04-25T07:26:12.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ProductDelete.cshtml",
               "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDelete.cshtml",
               "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDelete.cshtml",
@@ -374,116 +116,111 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductDelete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T20:59:49.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T07:25:48.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "ProductCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml",
+              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductCreate.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductCreate.cshtml",
+              "RelativeToolTip": "StockIT\\Pages\\ProductCreate.cshtml",
+              "ViewState": "AQIAAA0AAABAMzMzMzMrwBUAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T07:21:29.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "OperationComplete.cshtml",
               "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\OperationComplete.cshtml",
               "RelativeDocumentMoniker": "StockIT\\Pages\\OperationComplete.cshtml",
               "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\OperationComplete.cshtml",
               "RelativeToolTip": "StockIT\\Pages\\OperationComplete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T09:44:48.027Z",
+              "WhenOpened": "2024-04-25T07:16:21.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\f4b5cddba26fd88173fda7bc4974cbc4992dbaf50d5a8e311fd8eed3c78559e9\\StockIT\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\f4b5cddba26fd88173fda7bc4974cbc4992dbaf50d5a8e311fd8eed3c78559e9\\StockIT\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\f4b5cddba26fd88173fda7bc4974cbc4992dbaf50d5a8e311fd8eed3c78559e9\\StockIT\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\f4b5cddba26fd88173fda7bc4974cbc4992dbaf50d5a8e311fd8eed3c78559e9\\StockIT\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:06:40.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OperationComplete.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\6cfaba025f00d6c1f36b90b8b0ec1396d0c398965534b2554688434d51c7e04f\\StockIT\\Pages\\OperationComplete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\6cfaba025f00d6c1f36b90b8b0ec1396d0c398965534b2554688434d51c7e04f\\StockIT\\Pages\\OperationComplete.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\6cfaba025f00d6c1f36b90b8b0ec1396d0c398965534b2554688434d51c7e04f\\StockIT\\Pages\\OperationComplete.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\6cfaba025f00d6c1f36b90b8b0ec1396d0c398965534b2554688434d51c7e04f\\StockIT\\Pages\\OperationComplete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T07:15:40.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductCreate.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\c872c19ea13a2c291c310c5a4afa15b9f00f6f410b53e7ace9b2c57be97d706d\\StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\c872c19ea13a2c291c310c5a4afa15b9f00f6f410b53e7ace9b2c57be97d706d\\StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\c872c19ea13a2c291c310c5a4afa15b9f00f6f410b53e7ace9b2c57be97d706d\\StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\c872c19ea13a2c291c310c5a4afa15b9f00f6f410b53e7ace9b2c57be97d706d\\StockIT\\Pages\\ProductCreate.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAawCkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:26:34.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Inventory.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Inventory.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Inventory.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Inventory.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Inventory.cshtml",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockIT\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Index.cshtml",
+              "RelativeToolTip": "StockIT\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:34:08.433Z",
+              "WhenOpened": "2024-04-25T07:36:39.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "StockIT\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "StockIT\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:57:13.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CategoryEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryEdit.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\CategoryEdit.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryEdit.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\CategoryEdit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T12:23:01.175Z",
-              "EditorCaption": ""
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "StockIT.BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "StockIT.BLL\\Services\\ProductService.cs",
+              "ViewState": "AQIAAEsAAADQzMzMzMwjwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:07:00.036Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "CategoryDelete.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryDelete.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\CategoryDelete.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryDelete.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\CategoryDelete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:02:53.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Categories.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Categories.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Categories.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Categories.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Categories.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T15:26:32.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T22:14:24.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "StockIT.BLL.appsettings.json",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\StockIT.BLL.appsettings.json",
-              "RelativeDocumentMoniker": "StockIT.BLL\\StockIT.BLL.appsettings.json",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\StockIT.BLL.appsettings.json",
-              "RelativeToolTip": "StockIT.BLL\\StockIT.BLL.appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T09:01:41.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StockIT",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\StockIT.csproj",
-              "RelativeDocumentMoniker": "StockIT\\StockIT.csproj",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\StockIT.csproj",
-              "RelativeToolTip": "StockIT\\StockIT.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-24T09:17:41.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\appsettings.json",
               "RelativeDocumentMoniker": "StockIT\\appsettings.json",
@@ -491,441 +228,20 @@
               "RelativeToolTip": "StockIT\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T17:13:17.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T06:58:58.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StockITContext.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\DbContext\\StockITContext.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\DbContext\\StockITContext.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\DbContext\\StockITContext.cs",
-              "RelativeToolTip": "StockIT.BLL\\DbContext\\StockITContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T04:20:27.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Program.cs",
               "RelativeDocumentMoniker": "StockIT\\Program.cs",
               "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Program.cs",
               "RelativeToolTip": "StockIT\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:57:15.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "StockIT\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Properties\\launchSettings.json",
-              "RelativeToolTip": "StockIT\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T13:15:51.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\ProductService.cs",
-              "RelativeToolTip": "StockIT.BLL\\Services\\ProductService.cs",
-              "ViewState": "AQIAALYAAAAAAAAAAAAvwMUAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:22:55.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "StockIT\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "StockIT\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:55:10.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "StockIT\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "StockIT\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T22:13:26.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SharedController.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\SharedController.cs",
-              "RelativeDocumentMoniker": "StockIT\\Controllers\\SharedController.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Controllers\\SharedController.cs",
-              "RelativeToolTip": "StockIT\\Controllers\\SharedController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAUwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:42:49.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductDelete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDelete.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDelete.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductDelete.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\ProductDelete.cshtml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAEwBwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:01:56.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "StockIT.BLL\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:33:52.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CategoryDelete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryDelete.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\CategoryDelete.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryDelete.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\CategoryDelete.cshtml.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAuwCQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:13:14.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductDetails.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\fa21c7d4a0648192e38f52dec0d94f744e4eced2027141cd4a6624a739b5994a\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\fa21c7d4a0648192e38f52dec0d94f744e4eced2027141cd4a6624a739b5994a\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\fa21c7d4a0648192e38f52dec0d94f744e4eced2027141cd4a6624a739b5994a\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\fa21c7d4a0648192e38f52dec0d94f744e4eced2027141cd4a6624a739b5994a\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAYwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:18:04.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Error.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:10:27.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CategoryEdit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryEdit.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\CategoryEdit.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryEdit.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\CategoryEdit.cshtml.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAqwCMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:47:35.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Services\\CategoryService.cs",
-              "RelativeToolTip": "StockIT.BLL\\Services\\CategoryService.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAADgvz4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:09:58.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "CategoryList.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryList.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\CategoryList.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryList.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\CategoryList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T11:58:58.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Models\\Category.cs",
-              "RelativeToolTip": "StockIT.BLL\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:12:08.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Category.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Category.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Category.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Category.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Category.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T12:42:12.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Category.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Category.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Category.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Category.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\Category.cshtml.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:42:20.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "CategoryList.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryList.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\CategoryList.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\CategoryList.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\CategoryList.cshtml.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:39:02.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ProductEdit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductEdit.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductEdit.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductEdit.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\ProductEdit.cshtml.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAEkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T15:36:42.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProductList.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductList.cshtml.cs",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductList.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\ProductList.cshtml.cs",
-              "RelativeToolTip": "StockIT\\Pages\\ProductList.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T22:12:36.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Models\\Product.cs",
-              "RelativeToolTip": "StockIT.BLL\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:32:04.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProductCreateViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\ProductCreateViewModel.cs",
-              "RelativeDocumentMoniker": "StockIT\\Models\\ProductCreateViewModel.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\ProductCreateViewModel.cs",
-              "RelativeToolTip": "StockIT\\Models\\ProductCreateViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T23:48:37.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CategoryServiceException.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Exceptions\\CategoryServiceException.cs",
-              "RelativeDocumentMoniker": "StockIT.BLL\\Exceptions\\CategoryServiceException.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT.BLL\\Exceptions\\CategoryServiceException.cs",
-              "RelativeToolTip": "StockIT.BLL\\Exceptions\\CategoryServiceException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:10:04.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "StockIT\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "StockIT\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAACUAAAAAAAAAAIBJwCgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-21T09:46:06.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ProductDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\ProductDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "StockIT\\Models\\ProductDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\ProductDetailsViewModel.cs",
-              "RelativeToolTip": "StockIT\\Models\\ProductDetailsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T16:41:09.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ProductDetails.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\d9e3ed8cd51a3373ac4eaca250e3b371c2f387f8f682f44a4ef85796ab125057\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\d9e3ed8cd51a3373ac4eaca250e3b371c2f387f8f682f44a4ef85796ab125057\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\d9e3ed8cd51a3373ac4eaca250e3b371c2f387f8f682f44a4ef85796ab125057\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\d9e3ed8cd51a3373ac4eaca250e3b371c2f387f8f682f44a4ef85796ab125057\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwC4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:55:52.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ProductDetails.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\b378eca0b9592b4fe4d62a446eca04821ecfd6f4ef22945a1c0dc5098a7d0a24\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\b378eca0b9592b4fe4d62a446eca04821ecfd6f4ef22945a1c0dc5098a7d0a24\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\b378eca0b9592b4fe4d62a446eca04821ecfd6f4ef22945a1c0dc5098a7d0a24\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\b378eca0b9592b4fe4d62a446eca04821ecfd6f4ef22945a1c0dc5098a7d0a24\\StockIT\\Pages\\ProductDetails.cshtml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIBJwA4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T22:12:34.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ProductEditViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\ProductEditViewModel.cs",
-              "RelativeDocumentMoniker": "StockIT\\Models\\ProductEditViewModel.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\ProductEditViewModel.cs",
-              "RelativeToolTip": "StockIT\\Models\\ProductEditViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:36:56.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ProductList.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\fc0d8ac2216e8cdccca6423947221577f8e909ddacaf2a176ccb9f10c8f2b670\\StockIT\\Pages\\ProductList.cshtml.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\fc0d8ac2216e8cdccca6423947221577f8e909ddacaf2a176ccb9f10c8f2b670\\StockIT\\Pages\\ProductList.cshtml.cs",
-              "ToolTip": "C:\\Users\\twizo\\AppData\\Local\\SourceServer\\fc0d8ac2216e8cdccca6423947221577f8e909ddacaf2a176ccb9f10c8f2b670\\StockIT\\Pages\\ProductList.cshtml.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\fc0d8ac2216e8cdccca6423947221577f8e909ddacaf2a176ccb9f10c8f2b670\\StockIT\\Pages\\ProductList.cshtml.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAvwBMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T22:11:17.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAIITAAAAAAAAAAAcwG8TAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-04-21T20:01:05.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\IndexViewModel.cs",
-              "RelativeDocumentMoniker": "StockIT\\Models\\IndexViewModel.cs",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Models\\IndexViewModel.cs",
-              "RelativeToolTip": "StockIT\\Models\\IndexViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T17:25:18.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T00:03:10.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T22:14:20.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\StockIT\\StockIT\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T22:14:22.869Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:53:21.258Z",
+              "EditorCaption": ""
             }
           ]
         }
