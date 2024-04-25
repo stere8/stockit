@@ -1,6 +1,4 @@
-Certainly! Below is a sample README for the **Stockit** project. You can customize it further based on your specific use case and any additional features you plan to add:
 
----
 
 # Stockit: Small Business Inventory Management Software
 
