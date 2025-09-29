@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB1E1E5B-9634-4ADB-8365-D109701847D3}|StockIT.Test\\StockIT.Test.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit.test\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB1E1E5B-9634-4ADB-8365-D109701847D3}|StockIT.Test\\StockIT.Test.csproj|solutionrelative:stockit.test\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\pages\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\pages\\productedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productedit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\pages\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB1E1E5B-9634-4ADB-8365-D109701847D3}|StockIT.Test\\StockIT.Test.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit.test\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1E1E5B-9634-4ADB-8365-D109701847D3}|StockIT.Test\\StockIT.Test.csproj|solutionrelative:stockit.test\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\stockit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -24,10 +28,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|solutionrelative:stockit\\pages\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C13817DF-91A3-48CB-91CE-88D1A63DCCDF}|StockIT\\StockIT.csproj|c:\\users\\oracle.admin\\source\\repos\\stere8\\stockit\\stockit\\pages\\productcreate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT.Test\\CategoryService.cs",
               "RelativeDocumentMoniker": "StockIT.Test\\CategoryService.cs",
@@ -77,25 +77,24 @@
               "RelativeToolTip": "StockIT.Test\\CategoryService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAUwC0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:28:56.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T19:28:56.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductEdit.cshtml",
               "RelativeDocumentMoniker": "StockIT\\Pages\\ProductEdit.cshtml",
               "ToolTip": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductEdit.cshtml",
               "RelativeToolTip": "StockIT\\Pages\\ProductEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-29T19:22:41.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "StockIT\\Controllers\\CategoryController.cs",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "StockIT\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:22:08.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T19:22:08.42Z"
             },
             {
               "$type": "Document",
@@ -112,16 +110,29 @@
               "Title": "ProductEdit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductEdit.cshtml.cs",
               "RelativeDocumentMoniker": "StockIT\\Pages\\ProductEdit.cshtml.cs",
-              "ToolTip": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductEdit.cshtml.cs*",
-              "RelativeToolTip": "StockIT\\Pages\\ProductEdit.cshtml.cs*",
-              "ViewState": "AgIAAEUAAAAAAAAAAADwv1EAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductEdit.cshtml.cs",
+              "RelativeToolTip": "StockIT\\Pages\\ProductEdit.cshtml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAjwCEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T19:09:31.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductDetails.cshtml",
+              "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T18:57:24.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
@@ -129,21 +140,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "ViewState": "AgIAAM0AAAAAAAAAAAAewNQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-29T19:03:14.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductDetails.cshtml",
-              "RelativeDocumentMoniker": "StockIT\\Pages\\ProductDetails.cshtml",
-              "ToolTip": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\Pages\\ProductDetails.cshtml",
-              "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvw0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T18:57:24.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T19:03:14.413Z"
             },
             {
               "$type": "Document",
@@ -155,21 +152,19 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductDetails.cshtml.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAuwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:52:45.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T18:52:45.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StockIT",
+              "DocumentIndex": 5,
+              "Title": "StockIT.csproj",
               "DocumentMoniker": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\StockIT.csproj",
               "RelativeDocumentMoniker": "StockIT\\StockIT.csproj",
               "ToolTip": "C:\\Users\\oracle.admin\\source\\repos\\stere8\\stockit\\StockIT\\StockIT.csproj",
               "RelativeToolTip": "StockIT\\StockIT.csproj",
               "ViewState": "AgIAABUAAAAAAAAAAAD4vyEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-29T18:47:05.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T18:47:05.395Z"
             },
             {
               "$type": "Document",
@@ -181,8 +176,7 @@
               "RelativeToolTip": "StockIT\\Models\\ProductDetailsViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:51:28.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T18:51:28.938Z"
             },
             {
               "$type": "Document",
@@ -194,8 +188,7 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductCreate.cshtml.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAiwFQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T11:25:43.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T11:25:43.995Z"
             },
             {
               "$type": "Document",
@@ -207,8 +200,7 @@
               "RelativeToolTip": "StockIT.Test\\CategoryControllerTest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T18:21:23.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T18:21:23.588Z"
             },
             {
               "$type": "Document",
@@ -220,8 +212,7 @@
               "RelativeToolTip": "StockIT\\Pages\\ProductCreate.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T11:25:37.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T11:25:37.076Z"
             }
           ]
         }

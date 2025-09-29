@@ -33,7 +33,9 @@ public class ProductEditModel : PageModel
     public async Task<IActionResult> OnGetAsync(int productId)
     {
         // ✅ Load categories first — prevents null crash later
+        Console.WriteLine(">>> OnGetAsync started");
         Categories = _categoryService.GetAllCategories() ?? new List<Category>();
+        Console.WriteLine($">>> Categories count: {Categories?.Count}");
 
         // ✅ Get product from DB
         var viewProduct = await _productService.GetProductByIdAsync(productId);
