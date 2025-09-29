@@ -11,7 +11,7 @@ namespace StockIT.Pages;
 public class ProductEditModel : PageModel
 {
     [BindProperty] public ProductEditViewModel ProductModel { get; set; }
-    public List<Category> Categories { get; set; }
+    public List<Category> Categories { get; set; } = [];
     public string existingImagePaths { get; set; }
     private IProductService _productService { set; get; }
     private ICategoryService _categoryService { set; get; }
@@ -32,21 +32,22 @@ public class ProductEditModel : PageModel
 
     public async Task<IActionResult> OnGetAsync(int productId)
     {
-        // Asynchronously retrieve product data for potential database operations
-        var viewProduct = await _productService.GetProductByIdAsync(productId);
+        // ✅ Load categories first — prevents null crash later
+        Categories = _categoryService.GetAllCategories() ?? new List<Category>();
 
+        // ✅ Get product from DB
+        var viewProduct = await _productService.GetProductByIdAsync(productId);
         if (viewProduct == null)
         {
             TempData["Success"] = "false";
-            TempData["Message"] = "Product not found."; // More specific error message
-            return RedirectToPage("OperationComplete"); // Redirect to a dedicated error page
+            TempData["Message"] = "Product not found.";
+            return RedirectToPage("OperationComplete");
         }
 
-        existingImagePaths =
-            viewProduct.ImagePaths ?? string.Empty; // Use null-conditional operator for default empty string 
+        existingImagePaths = viewProduct.ImagePaths ?? string.Empty;
 
-
-        ProductModel = new ProductEditViewModel()
+        // ✅ Populate model
+        ProductModel = new ProductEditViewModel
         {
             Name = viewProduct.Name,
             CategoryId = viewProduct.CategoryId,
@@ -56,25 +57,28 @@ public class ProductEditModel : PageModel
             Price = viewProduct.Price
         };
 
-        using (var stream = System.IO.File.OpenRead($"{_environment.WebRootPath}/uploads/{existingImagePaths}"))
+        // ✅ Safe image load
+        var fullPath = Path.Combine(_environment.WebRootPath, "uploads", existingImagePaths ?? "");
+        if (System.IO.File.Exists(fullPath))
         {
+            using var stream = System.IO.File.OpenRead(fullPath);
             ProductModel.Image = new FormFile(stream, 0, stream.Length, null, Path.GetFileName(stream.Name))
             {
                 Headers = new HeaderDictionary(),
-                ContentType =
-                    GetContentTypeFromExtension(
-                        Path.GetExtension(existingImagePaths)) // Function to determine content type based on extension
+                ContentType = GetContentTypeFromExtension(Path.GetExtension(existingImagePaths))
             };
         }
+        else
+        {
+            existingImagePaths = "images/no-image.png";
+        }
 
+        // ✅ Store product ID for POST
         _contextAccessor.HttpContext?.Session.SetInt32("productId", ProductModel.Id);
 
-
-        // Additional logic to populate Categories list (if needed)
-        Categories = _categoryService.GetAllCategories(); // Assuming a GetCategoriesAsync method
-
-        return Page(); // Render the page with populated data
+        return Page();
     }
+
 
     public async Task<IActionResult> OnPostAsync()
     {

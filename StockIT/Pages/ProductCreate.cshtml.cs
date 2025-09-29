@@ -27,7 +27,7 @@ public class ProductCreateModel : PageModel
 
     public IActionResult OnGet()
     {
-        Categories = _categoryService.GetAllCategories();
+        Categories = _categoryService.GetAllCategories() ?? [];
         if (!Categories.Any())
         {
             TempData["Success"] = "false";

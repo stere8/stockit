@@ -43,7 +43,7 @@ namespace StockIT.Test
             _mockContext.Setup(c => c.Categories).Returns(mockSet.Object);
 
             // Act
-            var categories = _categoryService.GetAllCategories();
+            var categories = _categoryService.GetAllCategories() ?? [];
 
             // Assert
             Assert.AreEqual(2, categories.Count);

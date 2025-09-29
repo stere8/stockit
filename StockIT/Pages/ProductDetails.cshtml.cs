@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using StockIT.BLL.Services;
 
+
 namespace StockIT.Pages;
 
 public class ProductDetailsModel : PageModel
@@ -65,4 +66,5 @@ public class ProductDetailsModel : PageModel
 
         return Page(); // Render the page with populated data
     }
+
 }

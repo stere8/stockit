@@ -18,7 +18,7 @@ namespace StockIT.Pages
 
           public void OnGet()
         {
-            Categories = _categoryService.GetAllCategories();
+            Categories = _categoryService.GetAllCategories() ?? [];
             for (var i = 0; i < Categories.Count; i++)
             {
                 Categories[i].Products = _productService.GetProductsByCategory(Categories[i].Id);

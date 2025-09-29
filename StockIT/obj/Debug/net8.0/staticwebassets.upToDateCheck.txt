@@ -80,6 +80,7 @@ wwwroot\ckeditor\translations\zh-cn.js
 wwwroot\ckeditor\translations\zh.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\no-image.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
