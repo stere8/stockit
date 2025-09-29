@@ -1,130 +1,148 @@
-Perfect ✅ — Hybrid style it is.
-Below is a **production-ready README** tailored for your **StockIT** repo, blending **product storytelling** + **technical depth**, exactly what recruiters, devs, and potential collaborators expect👇
 
----
-
-```markdown
 # 🧾 StockIT — Small Business Web-Based Inventory Management System
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
-[![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework-Core-green)](https://learn.microsoft.com/en-us/ef/core/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)](https://getbootstrap.com/)
-[![Azure](https://img.shields.io/badge/Deployed%20on-Azure-blue)](https://stockit.azurewebsites.net/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-> 📦 **StockIT** is a modern web application built to empower **small businesses** with efficient, real-time inventory management — without the cost or complexity of enterprise systems.
-
----
+📦 **StockIT** is a modern web application built to empower small businesses with efficient, real-time inventory management — without the cost or complexity of enterprise systems.
 
 ## 🌐 Live Demo
 
-👉 [**Try StockIT**](https://stockit.azurewebsites.net/) — deployed on **Microsoft Azure Web App**.
+👉 [Try StockIT Now — Deployed on Microsoft Azure App Service.](https://stockit.azurewebsites.net/)
 
----
+-----
 
 ## 🧭 Table of Contents
 
-- [✨ Overview](#-overview)
-- [🚀 Features](#-features)
-- [🏗️ Architecture](#️-architecture)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [⚡ Quick Start](#-quick-start)
-- [☁️ Deployment Guide](#️-deployment-guide)
-- [🧪 Testing](#-testing)
-- [📊 Comparative Analysis](#-comparative-analysis)
-- [📝 Future Roadmap](#-future-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📚 References](#-references)
-- [👤 Author](#-author)
+  * [✨ Overview](https://github.com/stere8/stockit/edit/master/README.md#-overview)
+  * [🚀 Features](https://github.com/stere8/stockit/edit/master/README.md#-features)
+  * [🛠️ Tech Stack](https://github.com/stere8/stockit/edit/master/README.md#%EF%B8%8F-tech-stack)
+  * [🏗️ Architecture](https://github.com/stere8/stockit/edit/master/README.md#%EF%B8%8F-architecture)
+  * [⚡ Getting Started](https://github.com/stere8/stockit/edit/master/README.md#-getting-started)
+  * [☁️ Deployment Guide](https://github.com/stere8/stockit/edit/master/README.md#%EF%B8%8F-deployment-guide)
+  * [🧪 Testing Strategy](https://github.com/stere8/stockit/edit/master/README.md#-testing-strategy)
+  * [📊 Comparative Analysis](https://github.com/stere8/stockit/edit/master/README.md#-comparative-analysis)
+  * [📝 Future Roadmap](https://github.com/stere8/stockit/edit/master/README.md#-future-roadmap)
+  * [🤝 Contributing](https://github.com/stere8/stockit/edit/master/README.md#-contributing)
+  * [👤 Author](https://github.com/stere8/stockit/edit/master/README.md#-author)
+  * [🙏 Acknowledgments](https://github.com/stere8/stockit/edit/master/README.md#-acknowledgments)
 
----
+-----
 
 ## ✨ Overview
 
-Small businesses often rely on **manual spreadsheets**, outdated software, or no tracking at all — resulting in:
-- ❌ Inventory inaccuracies  
-- 🕓 Wasted time on repetitive tasks  
-- 💸 Lost sales due to stockouts or overstocking  
+Small businesses often rely on manual spreadsheets, outdated software, or no tracking at all, leading to:
+❌ **Inventory inaccuracies**
+🕓 **Wasted time** on repetitive tasks
+💸 **Lost sales** due to stockouts or overstocking
 
-**StockIT** was created to solve this.
+StockIT was created to solve these problems.
 
-> 🧠 **Mission:** Deliver a free, simple, and scalable inventory management tool for startups and small shops.
+🧠 **Mission:** Deliver a free, simple, and scalable inventory management tool for startups and small shops.
 
 Developed as part of my **Engineering Thesis** at the University of Economy (Bydgoszcz, 2025), StockIT combines **.NET 8**, **Entity Framework Core**, and **Bootstrap** to deliver a clean, modern, cloud-ready inventory system.
 
----
+-----
 
 ## 🚀 Features
 
-| Feature | Description |
-|--------|-------------|
-| 🧾 **Product & Category Management** | Add, edit, delete products and categories with ease |
-| 🧠 **Search & Filter** | Instantly search products by name or description |
-| 📊 **Inventory Overview** | View stock levels, categories, and quantities in real time |
-| 📤 **CSV/Excel Export** | Download inventory reports for offline use |
-| 📱 **Responsive UI** | Works seamlessly on desktop, tablet, and mobile |
-| 🛡️ **Secure CRUD** | Validation & basic security built into each operation |
-| ☁️ **Azure Deployed** | Live on Microsoft Azure App Service |
-| 🧰 **Extensible Architecture** | Business logic separated for scalability |
+### 🏷️ Core Inventory Management
 
----
+  * **Product & Category Management:** Add, edit, delete, and view products with detailed information and images.
+  * **Real-time Stock Tracking:** Monitor inventory levels with live updates.
+  * **Category Organization:** Organize products into customizable categories.
 
-## 🏗️ Architecture
+### 🔍 Advanced Functionality
 
-```
+  * **Smart Search & Filter:** Instantly search products by name/description or filter by category.
+  * **Data Export:** Download inventory reports in **CSV** and **Excel** formats for offline use.
+  * **Bulk Operations:** Efficiently manage multiple products and categories at once.
 
-StockIT.sln
-├── StockIT              → Razor Pages frontend & controllers
-│   ├── Pages
-│   ├── Controllers
-│   └── wwwroot
-├── StockIT.BLL          → Business Logic Layer (Services & Interfaces)
-│   └── DbContext        → EF Core database context
-└── StockIT.Test         → Unit & integration tests
+### 🎯 User Experience
 
-````
+  * **Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices.
+  * **Intuitive Interface:** Clean, modern UI built with Bootstrap 5.
+  * **Secure CRUD:** Validation and security are built into every operation.
 
-- **Presentation Layer** → Razor Pages + Bootstrap  
-- **Business Layer** → `ProductService`, `CategoryService`, etc.  
-- **Data Layer** → EF Core + SQL Server (code-first)  
-- **Deployment** → Azure Web App (Zip Deploy / Docker optional)
-
----
+-----
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Razor Pages, Bootstrap 5, JavaScript/jQuery  
-- **Backend:** ASP.NET Core 8 (MVC), C#  
-- **Database:** SQL Server + EF Core (Migrations & Seeding)  
-- **DevOps:** Dockerfile, Azure Web App, GitHub Actions (planned)  
-- **Testing:** xUnit, Integration & UAT  
-- **Methodology:** Agile (sprints, reviews, retrospectives)
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Backend** | `ASP.NET Core 8 (C#)`, Razor Pages | Fast, modern web framework. |
+| **Frontend** | `Bootstrap 5`, `JavaScript/jQuery`, `HTML5/CSS3` | Responsive, clean, and intuitive UI. |
+| **Database** | `SQL Server` + `Entity Framework Core` | Code-First with Migrations for robust data management. |
+| **DevOps/Infra** | `Microsoft Azure Web App`, `Docker`, `Git` | Cloud-ready deployment and source control. |
+| **Testing** | `xUnit` | Unit and integration testing framework. |
 
----
+-----
 
-## ⚡ Quick Start
+## 🏗️ Architecture
+
+StockIT follows a clean, multi-layered architecture for maintainability and scalability.
+
+  * **Presentation Layer:** Razor Pages + Bootstrap for a responsive UI.
+  * **Business Logic Layer (BLL):** Encapsulates business logic in services like `ProductService`.
+  * **Data Access Layer (DAL):** EF Core with SQL Server using the Code-First approach.
+
+### Project Structure
+
+```
+StockIT.sln
+├── StockIT/              # Web Application (UI & Controllers)
+│   ├── Pages/
+│   ├── Controllers/
+│   └── wwwroot/
+├── StockIT.BLL/          # Business Logic Layer
+│   ├── Services/
+│   └── DbContext/
+└── StockIT.Test/         # Unit & Integration Tests
+```
+
+### Database Schema
+
+  * **Products:** `ID`, `Name`, `Description`, `Quantity`, `Price`, `CategoryID`, `ImagePath`
+  * **Categories:** `ID`, `Name`
+  * **Relationships:** A one-to-many relationship exists between `Categories` and `Products`, with cascading deletes enabled for data integrity.
+
+-----
+
+## ⚡ Getting Started
 
 ### ✅ Prerequisites
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
-- SQL Server or LocalDB
-- Git
+
+  * [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+  * SQL Server (LocalDB or Express version is sufficient)
+  * [Git](https://git-scm.com/downloads)
+  * Visual Studio 2022 or VS Code
 
 ### 🧰 Clone & Run
+
+**1. Clone the repository:**
+
 ```bash
 git clone https://github.com/stere8/stockit.git
 cd stockit
+```
+
+**2. Configure the database connection:**
+Update the `DefaultConnection` string in `appsettings.json`.
+
+**3. Restore dependencies, apply migrations, and run the app:**
+
+```bash
 dotnet restore
-dotnet ef database update  # apply migrations
+dotnet ef database update  # This applies the database schema
 dotnet run --project StockIT
-````
+```
 
-App will start on `https://localhost:7000` or `http://localhost:5193`.
+The application will start on `https://localhost:7000` or a similar port.
 
----
+-----
 
 ## ☁️ Deployment Guide
 
-### 1. Publish the App
+The project is ready for deployment to **Azure Web App**.
+
+**1. Publish the application:**
 
 ```bash
 dotnet publish -c Release -o ./publish/StockIT
@@ -132,105 +150,88 @@ cd publish/StockIT
 zip -r ../stockit.zip .
 ```
 
-### 2. Deploy to Azure
+**2. Deploy using Azure CLI:**
 
 ```bash
 az webapp deploy \
-  --resource-group <your_rg> \
+  --resource-group <your_resource_group> \
   --name <your_app_name> \
-  --src-path ./publish/stockit.zip \
+  --src-path ../stockit.zip \
   --type zip
 ```
 
-### 3. Configure App Settings
+**3. Configuration:**
+Configure **App Settings** in the Azure portal, including `ASPNETCORE_ENVIRONMENT=Production` and your Azure SQL connection string.
 
-* `ASPNETCORE_ENVIRONMENT=Production`
-* Connection strings → **Azure SQL** (Encrypt=True; TrustServerCertificate=False)
+-----
 
----
+## 🧪 Testing Strategy
 
-## 🧪 Testing
+The project includes a comprehensive test suite to ensure reliability and code quality.
 
-* **Unit Tests:** Product & Category service operations
-* **Integration Tests:** Controller → DB → Response
-* **User Acceptance Testing:** Feedback from 10+ small business owners
+  * **Unit Tests:** Validate individual components and services in isolation.
+  * **Integration Tests:** Verify interactions between different layers (e.g., controller to database).
+  * **User Acceptance Testing (UAT):** Validated against real-world scenarios with feedback from over 10 small business owners.
 
-Run tests:
+To run all tests, execute the following command:
 
 ```bash
 dotnet test
 ```
 
----
+-----
 
 ## 📊 Comparative Analysis
 
-| Feature         | **StockIT**            | **Zoho Inventory** | **Square for Retail** |
-| --------------- | ---------------------- | ------------------ | --------------------- |
-| 🎯 Target       | Startups & small shops | Small/Medium       | Small retail          |
-| 💰 Pricing      | Freemium               | Tiered             | Freemium              |
-| 🧠 Inventory    | ✅ Basic + reporting    | ✅ Advanced         | ✅ POS-focused         |
-| 🧩 Integrations | 🔸 Planned             | ✅ Zoho suite       | ✅ POS ecosystem       |
-| 🌱 Scalability  | 🚀 Growing             | ✅ High             | 🟡 Medium             |
+| Feature | StockIT | Zoho Inventory | Square for Retail |
+| :--- | :--- | :--- | :--- |
+| **🎯 Target** | **Startups & Small Shops** | Small/Medium Business | Small Retailers |
+| **💰 Pricing** | **Free** | Tiered (Freemium) | Tiered (Freemium) |
+| **🧠 Inventory** | **✅ Core + Reporting** | ✅ Advanced | ✅ POS-focused |
+| **🧩 Integrations** | 🔸 Planned | ✅ Zoho Suite | ✅ POS Ecosystem |
+| **⭐ Ease of Use** | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 
-> StockIT focuses on **simplicity**, **ease of use**, and **cost-efficiency**.
+**Conclusion:** StockIT excels in **simplicity**, **ease of use**, and **cost-efficiency** for its target audience.
 
----
+-----
 
 ## 📝 Future Roadmap
 
-* 📈 Advanced analytics & reports
-* 🔗 Integrations with accounting systems (e.g., QuickBooks)
-* 🧑‍💻 Admin dashboard improvements
-* 🐳 Full CI/CD pipeline with GitHub Actions + Azure
-* 📊 Performance testing under load
+  * [ ] **Advanced Analytics:** Implement a dashboard with charts for sales trends and stock analysis.
+  * [ ] **API & Integrations:** Develop a REST API for integrations with accounting software (e.g., QuickBooks).
+  * [ ] **Barcode Scanning:** Add support for barcode scanning to speed up product management.
+  * [ ] **CI/CD Pipeline:** Automate deployment with GitHub Actions and Azure.
+  * [ ] **Multi-Location Support:** Allow users to manage inventory across multiple stores.
 
----
+-----
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome\! If you have suggestions or want to fix a bug, please follow these steps:
 
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feature/awesome`)
-3. Commit your changes
-4. Submit a Pull Request 🚀
+1.  Fork the repository.
+2.  Create a new feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a **Pull Request**.
 
----
-
-## 📚 References
-
-* [ASP.NET Core Documentation](https://dotnet.microsoft.com/apps/aspnet)
-* [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Azure Web Apps](https://azure.microsoft.com/en-us/products/app-service/)
-
----
+-----
 
 ## 👤 Author
 
-**👨‍💻 Oreste Twizeyimana**
-📍 Bydgoszcz, Poland
-🌐 [Portfolio](https://oracleconsults.netlify.app/)
-📧 [oreste.twizeyimana99@gmail.com](mailto:oreste.twizeyimana99@gmail.com)
-🐙 [GitHub](https://github.com/stere8)
+  * **Developer:** Oreste Twizeyimana
+  * **Location:** Bydgoszcz, Poland
+  * **Github Portfolio:** [GitHub Profile](https://www.google.com/search?q=github-profile-link-here)
+  * **Personal Portfolio** [Oracle Consults](oracleconsults.app.netlify)
+  * **Email:** oreste.twizeyimana99@gmail.com
 
----
+**⭐ If you find this project useful, please consider giving it a star\! ⭐**
 
-### ⭐ If you found this project useful, don’t forget to star the repo!
+-----
 
-```
+## 🙏 Acknowledgments
 
----
-
-🔥 This README hits **both** angles:
-- **Startup/Product side:** clear story, screenshots section placeholder, live demo, problem–solution framing.  
-- **Technical side:** architecture, tech stack, local setup, Azure deploy, testing, roadmap.
-
----
-
-Do you want me to:
-- 🖼️ Add **screenshots & diagrams** (from your thesis) directly into the README,  
-or  
-- 📄 Keep it clean and link them from a `/docs` folder?
-```
+  * Thesis Supervisor: Mgr inż. Tomasz Ocetkiewicz
+  * University of Economy in Bydgoszcz
+  * The .NET and ASP.NET Core communities
+  * All the small business owners who provided invaluable feedback during development.
