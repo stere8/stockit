@@ -275,7 +275,6 @@ C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\sta
 C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\staticwebassets.development.json
 C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\staticwebassets.build.endpoints.json
 C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\swae.build.ex.cache
-C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\StockIT.csproj.Up2Date
 C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\StockIT.dll
 C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT\obj\Release\net8.0\refint\StockIT.dll

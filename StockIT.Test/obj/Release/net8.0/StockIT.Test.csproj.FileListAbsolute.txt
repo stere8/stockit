@@ -1,0 +1,7 @@
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\bin\Release\net8.0\CoverletSourceRootsMapping_StockIT.Test
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\obj\Release\net8.0\StockIT.Test.csproj.AssemblyReference.cache
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\obj\Release\net8.0\StockIT.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\obj\Release\net8.0\StockIT.Test.AssemblyInfoInputs.cache
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\obj\Release\net8.0\StockIT.Test.AssemblyInfo.cs
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\obj\Release\net8.0\StockIT.Test.csproj.CoreCompileInputs.cache
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.Test\obj\Release\net8.0\StockIT.Test.sourcelink.json
