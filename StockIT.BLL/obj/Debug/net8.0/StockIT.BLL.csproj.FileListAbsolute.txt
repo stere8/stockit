@@ -12,3 +12,17 @@ C:\Users\twizo\source\repos\OCP\StockIT\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL
 C:\Users\twizo\source\repos\OCP\StockIT\StockIT.BLL\obj\Debug\net8.0\ref\StockIT.BLL.dll
 C:\Users\twizo\source\repos\OCP\StockIT\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.sourcelink.json
 C:\Users\twizo\source\repos\OCP\StockIT\StockIT.BLL\bin\Debug\net8.0\StockIT.BLL.appsettings.json
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\bin\Debug\net8.0\StockIT.BLL.appsettings.json
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\bin\Debug\net8.0\StockIT.BLL.deps.json
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\bin\Debug\net8.0\StockIT.BLL.dll
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\bin\Debug\net8.0\StockIT.BLL.pdb
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.csproj.AssemblyReference.cache
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.AssemblyInfoInputs.cache
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.AssemblyInfo.cs
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.csproj.CoreCompileInputs.cache
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.sourcelink.json
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.dll
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\refint\StockIT.BLL.dll
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\StockIT.BLL.pdb
+C:\Users\oracle.admin\source\repos\stere8\stockit\StockIT.BLL\obj\Debug\net8.0\ref\StockIT.BLL.dll
