@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockIT.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+537527487b7a8ade2092049dd31ec37b52db2260")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a0f7d2ffca26b6415c06c566a2a4c5f45a62f0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockIT.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockIT.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
