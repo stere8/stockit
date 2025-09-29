@@ -24,6 +24,13 @@ namespace StockIT.Test
             _controller = new CategoryController(null, _mockCategoryService.Object);
         }
 
+        [TearDown]
+        public void TearDown()
+        {
+            _controller?.Dispose();
+        }
+
+
         [Test]
         public void DeleteCategory_ValidId_DeletesCategory()
         {
