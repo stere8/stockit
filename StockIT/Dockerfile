@@ -4,9 +4,9 @@
 # For more information, please see https://aka.ms/containercompat
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-windowsservercore-ltsc2019 AS base
-USER ContainerUser
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
+ENV ASPNETCORE_HTTP_PORTS=8080
 EXPOSE 8080
 EXPOSE 8081
 
@@ -20,12 +20,12 @@ COPY ["StockIT.BLL/StockIT.BLL.csproj", "StockIT.BLL/"]
 RUN dotnet restore "./StockIT/StockIT.csproj"
 COPY . .
 WORKDIR "/src/StockIT"
-RUN dotnet build "./StockIT.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+RUN dotnet build "./StockIT.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./StockIT.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./StockIT.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
