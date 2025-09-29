@@ -52,4 +52,4 @@ jobs:
           app-name: 'stockit'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.__publishingprofilesecretname__ }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C79B1C722D0C43E5A4239464CA64759B }}
